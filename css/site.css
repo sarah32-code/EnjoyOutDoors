@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf7e9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #eaf7e9;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #eaf7e9;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.nav-link:hover {
+    color: #138013;
+    /* Dark green hover color */
+    text-decoration: underline;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #a3d9a5;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search-section label {
+    margin-right: 10px;
+}
+
+#search-section select,
+#search-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+#search-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #138013;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+.park {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.park h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.park p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.park a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.park a:hover {
+    background-color: #138013;
+}
+
+#search-results p {
+    font-size: 18px;
+    color: #555;
+}
+
+#mountain-list {
+    margin-top: 20px;
+}
+
+.mountain-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mountain-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mountain-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.mountain-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.mountain-item strong {
+    font-weight: bold;
+}
