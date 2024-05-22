@@ -69,7 +69,7 @@ footer.footer {
 }
 
 #search-btn {
-    background-color: #4CAF50;
+    background-color: darkgreen;
     color: white;
     border: none;
     border-radius: 5px;
@@ -153,4 +153,22 @@ footer.footer {
 
 .mountain-item strong {
     font-weight: bold;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:hover {
+    background-color:.btn-primary {
+    background-color: green;
+    border-color: green;
+}
+
+.btn-primary:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+    border-color: darkgreen;
 }
