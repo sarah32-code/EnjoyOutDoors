@@ -28,7 +28,6 @@ section {
 
 .nav-link:hover {
     color: #138013;
-    /* Dark green hover color */
     text-decoration: underline;
 }
 
@@ -52,10 +51,10 @@ footer.footer {
 }
 
 #search-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    background-color: #eaf7e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #138013;
 }
 
 #search-section label {
@@ -69,7 +68,7 @@ footer.footer {
 }
 
 #search-btn {
-    background-color: darkgreen;
+    background-color: #4CAF50;;
     color: white;
     border: none;
     border-radius: 5px;
@@ -134,7 +133,10 @@ footer.footer {
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.mountain-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .mountain-item h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -158,17 +160,16 @@ footer.footer {
 .btn-primary {
     background-color: green;
     border-color: green;
-}
-
-.btn-primary:hover {
-    background-color:.btn-primary {
-    background-color: green;
-    border-color: green;
+    color: white;
 }
 
 .btn-primary:hover {
     background-color: darkgreen;
     border-color: darkgreen;
 }
+
+.btn-primary:hover {
+    background-color: darkgreen;
     border-color: darkgreen;
 }
+   
