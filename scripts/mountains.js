@@ -3,6 +3,9 @@ const mountainList = document.getElementById('mountain-list');
 const mountainSelect = document.getElementById('mountain-select');
 const mountainForm = document.getElementById('mountain-form');
 
+window.onload = function () {
+};
+
 for (let i = 0; i < mountainsArray.length; i++) {
     const mountain = mountainsArray[i];
     const option = document.createElement('option');
